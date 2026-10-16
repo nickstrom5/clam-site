@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; form-action 'none'; base-uri 'none'; object-src 'none'; upgrade-insecure-requests">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to Block TikTok and Instagram on iPhone | Clam Guide</title>
+<meta name="description" content="Four ways to block TikTok and Instagram on your iPhone: a 1-minute App Limit, deleting the app and blocking the website, Downtime, or a timed app blocker.">
+<link rel="canonical" href="https://getclam.app/block-tiktok-instagram-on-iphone.html">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#121217">
+<meta property="og:title" content="How to Block TikTok and Instagram on iPhone | Clam Guide">
+<meta property="og:description" content="Four ways to block TikTok and Instagram on your iPhone: a 1-minute App Limit, deleting the app and blocking the website, Downtime, or a timed app blocker.">
+<meta property="og:url" content="https://getclam.app/block-tiktok-instagram-on-iphone.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Clam">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://getclam.app/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Clam, an app blocker for iPhone. Your apps stay shut. One tap, real blocking, timer on your Lock Screen.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="How to Block TikTok and Instagram on iPhone | Clam Guide">
+<meta name="twitter:description" content="Four ways to block TikTok and Instagram on your iPhone: a 1-minute App Limit, deleting the app and blocking the website, Downtime, or a timed app blocker.">
+<meta name="twitter:image" content="https://getclam.app/og.png">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180">
+<link rel="manifest" href="/site.webmanifest">
+<style>
+  :root {
+    --bg: #121217; --surface: #1f1f26; --raised: #2b2b35;
+    --fg: #fff; --muted: rgba(255,255,255,.68); --faint: rgba(255,255,255,.58);
+    --accent: #fad159; --danger: #fa6b61; --ok: #73dc94;
+    --radius: 20px;
+  }
+  * { box-sizing: border-box; }
+  html { color-scheme: dark; scroll-behavior: smooth; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+  a { color: inherit; }
+  a:focus-visible, summary:focus-visible, .btn:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; border-radius: 6px; }
+  .skip { position: absolute; left: -9999px; top: 0; background: var(--accent); color: #000; padding: 10px 14px; border-radius: 0 0 10px 0; font-weight: 700; }
+  .skip:focus { left: 0; z-index: 10; }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 0 20px; }
+  .top { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px 16px; padding: 22px 0; }
+  .logo { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 20px; text-decoration: none; min-height: 44px; }
+  .logo svg { width: 28px; height: 28px; }
+  .top nav { display: flex; flex-wrap: wrap; gap: 6px 18px; }
+  .top nav a { color: var(--muted); text-decoration: none; font-size: 15px; display: inline-flex; align-items: center; min-height: 44px; }
+  .top nav a:hover { color: var(--fg); }
+  h1 { font-size: clamp(36px, 8vw, 58px); line-height: 1.06; letter-spacing: -.025em; margin: 0 0 18px; font-weight: 800; }
+  h1 span { color: var(--accent); }
+  h2 { font-size: 30px; line-height: 1.15; letter-spacing: -.02em; margin: 0 0 8px; font-weight: 800; }
+  h3 { font-size: 18px; margin: 0 0 4px; }
+  .btn { display: inline-flex; align-items: center; gap: 10px; background: var(--accent); color: #000; font-weight: 700; padding: 15px 22px; border-radius: 16px; text-decoration: none; font-size: 17px; border: 0; cursor: pointer; }
+  .btn svg { width: 22px; height: 22px; }
+  .pill { font-size: 14px; color: var(--faint); }
+  .cta-row { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+  .card { background: var(--surface); border-radius: var(--radius); padding: 22px; }
+  .card p { margin: 6px 0 0; color: var(--muted); }
+  footer { padding: 40px 0 60px; color: var(--faint); font-size: 14px; border-top: 1px solid var(--raised); }
+  footer nav { display: flex; flex-wrap: wrap; gap: 8px 18px; }
+  footer nav a { display: inline-flex; align-items: center; min-height: 44px; } /* 44px tall, Apple's minimum tap target */
+  footer a { color: var(--faint); }
+  footer a:hover { color: var(--fg); }
+  footer .guides { margin-top: 10px; }
+  footer .copy { margin-top: 14px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    * { animation: none !important; transition: none !important; }
+  }
+
+  main { padding: 28px 0 56px; }
+  .crumbs { font-size: 14px; color: var(--faint); margin: 0 0 22px; }
+  .crumbs ol { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+  .crumbs li { color: var(--faint); margin: 0; }
+  .crumbs li + li::before { content: "/"; margin-right: 6px; }
+  main .crumbs a { color: var(--muted); }
+  main h1 { font-size: clamp(32px, 6.5vw, 46px); }
+  main h2 { font-size: 24px; margin: 38px 0 10px; }
+  main h3 { margin: 24px 0 6px; }
+  main p, main li { color: rgba(255,255,255,.82); }
+  main li { margin-bottom: 8px; }
+  main a { color: var(--accent); text-underline-offset: 3px; }
+  main .lede { font-size: 20px; color: var(--muted); margin: 0 0 8px; }
+  main .meta { font-size: 14px; color: var(--faint); margin: 0 0 8px; }
+  .callout { background: var(--surface); border-radius: var(--radius); padding: 22px; margin: 36px 0 0; }
+  .callout h2 { margin-top: 0; }
+  main a.btn { color: #000; text-decoration: none; margin-top: 8px; }
+</style>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Organization",
+   "@id": "https://getclam.app/#org",
+   "name": "Clam",
+   "url": "https://getclam.app/",
+   "logo": {
+    "@type": "ImageObject",
+    "url": "https://getclam.app/icon-512.png",
+    "width": 512,
+    "height": 512
+   },
+   "email": "support@getclam.app",
+   "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "customer support",
+    "email": "support@getclam.app"
+   }
+  },
+  {
+   "@type": "WebSite",
+   "@id": "https://getclam.app/#website",
+   "name": "Clam",
+   "url": "https://getclam.app/",
+   "publisher": {
+    "@id": "https://getclam.app/#org"
+   },
+   "inLanguage": "en"
+  },
+  {
+   "@type": "Article",
+   "@id": "https://getclam.app/block-tiktok-instagram-on-iphone.html#article",
+   "headline": "How to block TikTok and Instagram on iPhone",
+   "description": "Four ways to block TikTok and Instagram on your iPhone: a 1-minute App Limit, deleting the app and blocking the website, Downtime, or a timed app blocker.",
+   "datePublished": "2026-09-18",
+   "dateModified": "2026-10-07",
+   "inLanguage": "en",
+   "author": {
+    "@id": "https://getclam.app/#org"
+   },
+   "publisher": {
+    "@id": "https://getclam.app/#org"
+   },
+   "image": "https://getclam.app/og.png",
+   "mainEntityOfPage": "https://getclam.app/block-tiktok-instagram-on-iphone.html",
+   "isPartOf": {
+    "@id": "https://getclam.app/#website"
+   }
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Clam",
+     "item": "https://getclam.app/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Block TikTok and Instagram on iPhone",
+     "item": "https://getclam.app/block-tiktok-instagram-on-iphone.html"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="wrap">
+  <header class="top">
+    <a class="logo" href="/" aria-label="Clam home">
+      <svg viewBox="0 0 100 100" width="28" height="28" aria-hidden="true"><path d="M83.0 58.0 L83.22 57.42 L83.42 56.83 L83.6 56.24 L83.77 55.64 L83.91 55.03 L84.03 54.42 L84.11 53.81 L84.17 53.2 L84.19 52.58 L84.18 51.97 L84.13 51.37 L84.04 50.76 L83.92 50.17 L83.76 49.58 L83.57 49.01 L83.34 48.44 L83.08 47.89 L82.78 47.35 L82.46 46.82 L82.11 46.31 L81.73 45.82 L81.33 45.34 L80.92 44.87 L80.49 44.42 L80.05 43.99 L79.72 43.51 L79.66 42.89 L79.58 42.27 L79.48 41.66 L79.36 41.05 L79.22 40.44 L79.05 39.84 L78.86 39.26 L78.63 38.69 L78.38 38.13 L78.09 37.59 L77.78 37.07 L77.43 36.57 L77.05 36.09 L76.65 35.64 L76.22 35.21 L75.76 34.81 L75.27 34.43 L74.77 34.08 L74.24 33.76 L73.7 33.46 L73.14 33.18 L72.58 32.93 L72.0 32.69 L71.41 32.48 L70.83 32.28 L70.39 31.9 L70.07 31.37 L69.73 30.85 L69.37 30.34 L68.99 29.84 L68.6 29.37 L68.18 28.91 L67.74 28.47 L67.29 28.06 L66.81 27.68 L66.31 27.32 L65.8 27.0 L65.26 26.71 L64.71 26.45 L64.14 26.23 L63.56 26.04 L62.97 25.89 L62.37 25.77 L61.76 25.68 L61.15 25.63 L60.53 25.6 L59.91 25.6 L59.28 25.62 L58.66 25.67 L58.04 25.74 L57.43 25.81 L56.9 25.54 L56.37 25.21 L55.84 24.89 L55.29 24.59 L54.73 24.32 L54.17 24.06 L53.59 23.84 L53.01 23.64 L52.41 23.48 L51.82 23.35 L51.21 23.26 L50.61 23.2 L50.0 23.19 L49.39 23.2 L48.79 23.26 L48.18 23.35 L47.59 23.48 L46.99 23.64 L46.41 23.84 L45.83 24.06 L45.27 24.32 L44.71 24.59 L44.16 24.89 L43.63 25.21 L43.1 25.54 L42.57 25.81 L41.96 25.74 L41.34 25.67 L40.72 25.62 L40.09 25.6 L39.47 25.6 L38.85 25.63 L38.24 25.68 L37.63 25.77 L37.03 25.89 L36.44 26.04 L35.86 26.23 L35.29 26.45 L34.74 26.71 L34.2 27.0 L33.69 27.32 L33.19 27.68 L32.71 28.06 L32.26 28.47 L31.82 28.91 L31.4 29.37 L31.01 29.84 L30.63 30.34 L30.27 30.85 L29.93 31.37 L29.61 31.9 L29.17 32.28 L28.59 32.48 L28.0 32.69 L27.42 32.93 L26.86 33.18 L26.3 33.46 L25.76 33.76 L25.23 34.08 L24.73 34.43 L24.24 34.81 L23.78 35.21 L23.35 35.64 L22.95 36.09 L22.57 36.57 L22.22 37.07 L21.91 37.59 L21.62 38.13 L21.37 38.69 L21.14 39.26 L20.95 39.84 L20.78 40.44 L20.64 41.05 L20.52 41.66 L20.42 42.27 L20.34 42.89 L20.28 43.51 L19.95 43.99 L19.51 44.42 L19.08 44.87 L18.67 45.34 L18.27 45.82 L17.89 46.31 L17.54 46.82 L17.22 47.35 L16.92 47.89 L16.66 48.44 L16.43 49.01 L16.24 49.58 L16.08 50.17 L15.96 50.76 L15.87 51.37 L15.82 51.97 L15.81 52.58 L15.83 53.2 L15.89 53.81 L15.97 54.42 L16.09 55.03 L16.23 55.64 L16.4 56.24 L16.58 56.83 L16.78 57.42 L17.0 58.0 Z" fill="#fad159"/><path d="M56.54 54.85 L77.65 44.68 M54.53 52.32 L69.13 34.01 M51.62 50.92 L56.83 28.08 M48.38 50.92 L43.17 28.08 M45.47 52.32 L30.87 34.01 M43.46 54.85 L22.35 44.68" stroke="#121217" stroke-width="2.4" stroke-linecap="round" fill="none"/><path d="M83.0 60.0 L83.11 60.18 L83.2 60.37 L83.28 60.56 L83.34 60.75 L83.39 60.93 L83.42 61.12 L83.43 61.31 L83.42 61.5 L83.39 61.69 L83.34 61.88 L83.26 62.07 L83.16 62.26 L83.04 62.44 L82.89 62.62 L82.72 62.81 L82.53 62.98 L82.32 63.16 L82.08 63.34 L81.83 63.51 L81.56 63.68 L81.27 63.84 L80.97 64.0 L80.65 64.16 L80.32 64.32 L79.98 64.47 L79.69 64.63 L79.53 64.81 L79.36 65.0 L79.17 65.17 L78.97 65.35 L78.75 65.53 L78.52 65.7 L78.27 65.87 L78.0 66.04 L77.71 66.21 L77.4 66.37 L77.07 66.53 L76.72 66.68 L76.35 66.83 L75.96 66.97 L75.56 67.11 L75.14 67.24 L74.7 67.37 L74.25 67.49 L73.79 67.61 L73.31 67.72 L72.82 67.83 L72.33 67.94 L71.82 68.03 L71.31 68.13 L70.8 68.22 L70.36 68.34 L69.96 68.48 L69.56 68.62 L69.15 68.75 L68.72 68.88 L68.28 69.01 L67.83 69.13 L67.37 69.25 L66.89 69.36 L66.4 69.47 L65.9 69.57 L65.39 69.66 L64.86 69.75 L64.33 69.83 L63.78 69.91 L63.23 69.97 L62.67 70.03 L62.1 70.09 L61.52 70.13 L60.95 70.17 L60.36 70.21 L59.78 70.23 L59.19 70.26 L58.6 70.27 L58.01 70.29 L57.43 70.29 L56.88 70.36 L56.34 70.43 L55.78 70.5 L55.23 70.56 L54.66 70.62 L54.09 70.67 L53.52 70.72 L52.94 70.76 L52.36 70.79 L51.77 70.82 L51.18 70.84 L50.59 70.85 L50.0 70.85 L49.41 70.85 L48.82 70.84 L48.23 70.82 L47.64 70.79 L47.06 70.76 L46.48 70.72 L45.91 70.67 L45.34 70.62 L44.77 70.56 L44.22 70.5 L43.66 70.43 L43.12 70.36 L42.57 70.29 L41.99 70.29 L41.4 70.27 L40.81 70.26 L40.22 70.23 L39.64 70.21 L39.05 70.17 L38.48 70.13 L37.9 70.09 L37.33 70.03 L36.77 69.97 L36.22 69.91 L35.67 69.83 L35.14 69.75 L34.61 69.66 L34.1 69.57 L33.6 69.47 L33.11 69.36 L32.63 69.25 L32.17 69.13 L31.72 69.01 L31.28 68.88 L30.85 68.75 L30.44 68.62 L30.04 68.48 L29.64 68.34 L29.2 68.22 L28.69 68.13 L28.18 68.03 L27.67 67.94 L27.18 67.83 L26.69 67.72 L26.21 67.61 L25.75 67.49 L25.3 67.37 L24.86 67.24 L24.44 67.11 L24.04 66.97 L23.65 66.83 L23.28 66.68 L22.93 66.53 L22.6 66.37 L22.29 66.21 L22.0 66.04 L21.73 65.87 L21.48 65.7 L21.25 65.53 L21.03 65.35 L20.83 65.17 L20.64 65.0 L20.47 64.81 L20.31 64.63 L20.02 64.47 L19.68 64.32 L19.35 64.16 L19.03 64.0 L18.73 63.84 L18.44 63.68 L18.17 63.51 L17.92 63.34 L17.68 63.16 L17.47 62.98 L17.28 62.81 L17.11 62.62 L16.96 62.44 L16.84 62.26 L16.74 62.07 L16.66 61.88 L16.61 61.69 L16.58 61.5 L16.57 61.31 L16.58 61.12 L16.61 60.93 L16.66 60.75 L16.72 60.56 L16.8 60.37 L16.89 60.18 L17.0 60.0 Z" fill="#fad159"/></svg>
+      Clam
+    </a>
+    <nav aria-label="Main">
+      <a href="/#how">How it works</a>
+      <a href="/#pricing">Pricing</a>
+      <a href="/#faq">FAQ</a>
+    </nav>
+  </header>
+  <main id="main">
+    <nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/">Clam</a></li><li aria-current="page">Block TikTok and Instagram on iPhone</li></ol></nav>
+    <h1>How to block TikTok and Instagram on iPhone</h1>
+    <p class="lede">The feeds are built to be reopened without thinking. These are the four ways to put something between your thumb and the icon, from free to firm.</p>
+    <p class="meta">Updated 7 October 2026 · Menu names are from recent iOS versions and can differ slightly on yours.</p>
+
+    <h2>1. Give them a 1-minute App Limit</h2>
+    <ol>
+      <li>Open <b>Settings → Screen Time → App Limits → Add Limit</b>.</li>
+      <li>Open the <b>Social</b> category and tick TikTok and Instagram. If one isn't there, look under Entertainment or use the search field.</li>
+      <li>Set the time to 1 minute and tap <b>Add</b>.</li>
+    </ol>
+    <p>After a minute a day, both apps sit behind a "Time Limit" screen. The weakness is the <b>Ignore Limit</b> button on that screen. To remove it, set a Screen Time passcode (Lock Screen Time Settings) and turn on <b>Block at End of Limit</b>. It works best if someone else holds the passcode.</p>
+
+    <h2>2. Delete the app and block the website</h2>
+    <p>Deleting the app is the oldest trick and still a good one, because reinstalling takes long enough to change your mind. The gap is Safari: both services work in a browser. To close it:</p>
+    <ol>
+      <li>Go to <b>Settings → Screen Time → Content &amp; Privacy Restrictions</b> and turn it on.</li>
+      <li>Open the content restrictions section (named "App Store, Media, Web &amp; Games" or "Content Restrictions" depending on your iOS version), then <b>Web Content</b>.</li>
+      <li>Choose <b>Limit Adult Websites</b>. Under <b>Never Allow</b>, add <b>tiktok.com</b> and <b>instagram.com</b>.</li>
+    </ol>
+    <p>This also filters adult sites in every browser on the phone, which you may or may not want. It can't be scheduled, so it suits "I'm done with this app" more than "not during work".</p>
+
+    <h2>3. Use Downtime for a nightly cut-off</h2>
+    <p>If the problem is scrolling in bed, schedule <b>Settings → Screen Time → Downtime</b> from, say, 22:00 to 07:00 and leave TikTok and Instagram out of <b>Always Allowed</b>. Everything not on that list is blocked for the night. Same caveat as App Limits: without a passcode, Ignore Limit is one tap away.</p>
+
+    <h2>4. Lock them for a set time with an app blocker</h2>
+    <p>Most people don't want Instagram gone forever. They want it gone for the next 50 minutes. The built-in settings are awkward at that: there is no "block this for an hour, starting now" button.</p>
+    <p>That is the one job <a href="/">Clam</a> does. You pick TikTok, Instagram and anything else once, in Apple's own app picker. Then a session is one tap: choose 25, 50 or 90 minutes, or any length from 15 minutes to 4 hours, and lock your phone. Until the timer ends, the apps open to a block screen with a single button, "OK, I'll wait". There's no Ignore Limit. The exit that exists is deliberate: hold a button for 10 seconds and your streak resets.</p>
+    <p>When the timer ends the apps come back on their own. Nothing to switch off, no passcode to find.</p>
+
+    <h2>What about blocking just Reels or the For You page?</h2>
+    <p>Not possible from outside the app. iOS blocks at the level of a whole app or a whole website; no Screen Time setting or third-party blocker can reach inside Instagram and turn off one tab. If you need DMs but not Reels, the closest you'll get is blocking the app during the hours you work and replying afterwards.</p>
+
+    <h2>Which to pick</h2>
+    <ul>
+      <li><b>Done with the app entirely:</b> delete it and block the website.</li>
+      <li><b>Late-night scrolling:</b> Downtime on a schedule.</li>
+      <li><b>A daily cap:</b> a 1-minute or 15-minute App Limit with a passcode someone else keeps.</li>
+      <li><b>Focused blocks during the day:</b> a timed blocker like Clam.</li>
+    </ul>
+    <p>More detail on the built-in options is in <a href="/how-to-block-apps-on-iphone.html">how to block apps on iPhone</a>.</p>
+    <aside class="callout" aria-label="About Clam">
+      <h2>Instagram is clammed up</h2>
+      <p>Clam locks TikTok, Instagram and any other app for exactly as long as you choose, then gives them back. Built on Apple's Screen Time API. Your app list never leaves your phone.</p>
+      <a class="btn" href="/">See how Clam works</a>
+    </aside>
+  </main>
+
+  <footer>
+    <nav aria-label="Footer">
+      <a href="/">Clam home</a>
+      <a href="/privacy.html">Privacy policy</a>
+      <a href="/terms.html">Terms of use</a>
+      <a href="/support.html">Help &amp; support</a>
+      <a href="mailto:support@getclam.app">Email support</a>
+      <a href="mailto:hello@getclam.app">Press &amp; creators</a>
+    </nav>
+    <nav class="guides" aria-label="Guides">
+      <a href="/how-to-block-apps-on-iphone.html">How to block apps on iPhone</a>
+      <a href="/block-tiktok-instagram-on-iphone.html">How to block TikTok and Instagram on iPhone</a>
+      <a href="/focus-mode-vs-app-blocker.html">Focus mode vs an app blocker</a>
+    </nav>
+    <div class="copy">© 2026 Clam. Lock it. Clam up.</div>
+    <div class="copy credit">Created by <a href="https://work-with-nick.com" rel="author">Nick Soderstrom</a></div>
+  </footer>
+</div>
+</body>
+</html>
